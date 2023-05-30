@@ -1,0 +1,112 @@
+body {
+    background-color: #F6F8FA;
+    color: #191919;
+    ;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 100;
+  }
+  
+  /* :root {
+      --bs-font-sans-serif: "Poppins", sans-serif;
+      --bs-font-size:10px;
+  } */
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #0089AD;
+  }
+  
+  /* #navigation {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  } */
+  
+  
+  
+  footer hr {
+    border-top: 1px solid #0a0707;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  .homeButtonsSmallScreens {
+    height: 60px;
+    width: auto;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  
+  .list-group-item {
+    color: #191919;
+  }
+  
+  .my-list {
+    list-style-type: disc !important;
+  }
+  
+  .my-list li {
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    color: #000080;
+  }
+  
+  p{
+    font-size: 16px;
+  }
+  
+  .footer {
+    background-color: #BDCDD6;
+    width: 100%;
+  }
+  
+  td{
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  thead{
+    background-color: #43b4f5cc;
+  }
+  
+  /* Mobile view */
+  @media (max-width: 768px) {
+  
+    /* For screen sizes smaller than or equal to 768px (i.e., mobile devices) */
+    .card-img-top {
+      max-height: 200px;
+    }
+  
+    #PersonalPhoto {
+      height: 200px;
+      width: auto;
+      border-radius: 5%;
+    }
+  
+  
+  }
+  
+  /* Tablet and Desktop view */
+  @media (min-width: 768px) {
+    #PersonalPhoto {
+      height: 350px;
+      width: 350px;
+      border-radius: 50%;
+    }
+    .homeButtonsSmallScreens {
+      height: 100px;
+      width: 140px;
+    }
+  
+  
+  }
