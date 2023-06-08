@@ -4,6 +4,10 @@ body {
     ;
     font-family: "Work Sans", sans-serif;
     font-weight: 100;
+      /* margin: 0;
+      padding: 0; */
+      /* overflow-y: scroll; */
+    
   }
   
   /* :root {
@@ -32,11 +36,16 @@ body {
   
   footer hr {
     border-top: 1px solid #0a0707;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 100%; */
   }
-  
+
+  footer{
+    /* position: sticky; */
+    bottom: 0;
+  }
+
   .homeButtonsSmallScreens {
     height: 60px;
     width: auto;
@@ -67,8 +76,15 @@ body {
   
   .footer {
     background-color: #BDCDD6;
-    width: 100%;
+    /* min-width: 100%; */
+    /* box-sizing: border-box; */ 
   }
+
+  /* .navbar-brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  } */
   
   td{
     text-align: center;

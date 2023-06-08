@@ -35,17 +35,18 @@
 
 <body>
 
-   <!-- Navigation Bar -->
-   <nav class="navbar navbar-expand-md shadow-sm">
+    <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-md shadow-sm">
     <div class="container-lg px-4">
-      <a class="navbar-brand" href="/index.html">
+      <a class="navbar-brand align-items-center" href="/src/index.html">
         <img id="logo" alt="Logo"
           src="https://github.com/AiswaryaNair4/PersonalWebsite-live/blob/main/ANLogoLatest.jpg?raw=true" 
           height="30"
           class="rounded-2 border border-dark-subtle" 
           />
+          <!-- <span class="fs-3 mt-2 d-none d-md-block" style="color: #333b83; text-decoration: none;" href="/src/index.html">𝐀𝐢𝐬𝐰𝐚𝐫𝐲𝐚 𝐍𝐚𝐢𝐫</span> -->
       </a>
-      <a class="fs-3 mt-2 d-none d-md-block" style="color: #333b83;" href="/index.html">𝐀𝐢𝐬𝐰𝐚𝐫𝐲𝐚 𝐍𝐚𝐢𝐫</a>
+      <a class="fs-2 mt-2 d-none d-md-block align-items-center" style="color: #333b83; text-decoration: none;" href="/src/index.html">𝐀𝐢𝐬𝐰𝐚𝐫𝐲𝐚 𝐍𝐚𝐢𝐫</a>
       <button class="navbar-toggler" 
       type="button" 
       data-bs-toggle="collapse" 
@@ -57,22 +58,29 @@
         <span class="navbar-toggler-icon"></span>
       </button>
   
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto mt-3" >
+      <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+        <ul class="navbar-nav" >
           <li class="nav-item">
             <a class="nav-link fs-6"  
               aria-current="page"
-              href="/resume.html" style="color: #333b83;">
+              href="/src/index.html" style="color: #333b83;">
+              Home   
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-6"  
+              aria-current="page"
+              href="/src/resume.html" style="color: #333b83;">
               Resume   
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-6" href="/projects.html" style="color: #333b83;">
+            <a class="nav-link fs-6" href="/src/projects.html" style="color: #333b83;">
               Projects
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-6" href="/contact.html" style="color: #333b83;">
+            <a class="nav-link fs-6" href="/src/contact.html" style="color: #333b83;">
               Contact Me
             </a>
           </li>
@@ -92,17 +100,17 @@
   </div>
 
   <div class="container-fluid">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center align-items-center">
       <div class="col-lg-6 col-12 py-2">
         <div class="accordion accordion-flush d-md-none" id="accordionFlushExample">
 
           <!-- Work Experience Card1 -->
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed border border-primary-subtle rounded" type="button"
+              <button class="accordion-button collapsed border border-primary-subtle rounded my-2" type="button"
                 data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
                 aria-controls="flush-collapseOne" style="background-color: #F1F6F9">
-                <h6> Work Experience</h6>
+                <h6 class="my-2"> Work Experience</h6>
               </button>
             </h2>
             <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -139,10 +147,10 @@
           <!-- Education Card2 -->
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed border border-primary-subtle rounded" type="button"
+              <button class="accordion-button collapsed border border-primary-subtle rounded my-2" type="button"
                 data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
                 aria-controls="flush-collapseTwo" style="background-color: #F1F6F9">
-                <h6>Education</h6>
+                <h6 class="my-2">Education</h6>
               </button>
             </h2>
             <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -167,7 +175,7 @@
               <button class="accordion-button collapsed border border-primary-subtle rounded" type="button"
                 data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
                 aria-controls="flush-collapseThree" style="background-color: #F1F6F9">
-                <h6>Skills</h6>
+                <h6 class="my-2">Skills</h6>
               </button>
             </h2>
             <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -325,40 +333,55 @@
 
 
   <!-- Footer -->
-  <div class="container my-5">
+  <!-- <div class="container-fluid my-5"> -->
     <footer class="bg-light text-center text-white">
       <!-- Grid container -->
-      <div class="container p-4 pb-0">
+      <div class="container-fluid p-4 pb-0">
         <!-- Section: Social media -->
         <hr>
         <section class="mb-4">
-
+            
           <!-- Google -->
-          <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;"
-            href="mailto:aiswarya.nair4@gmail.com" role="button"><i class="fab fa-google"></i></a>
-
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #dd4b39;"
+            href="mailto:aiswarya.nair4@gmail.com"
+            role="button"
+            ><i class="fab fa-google"></i></a>
+    
           <!-- Linkedin -->
-          <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;"
-            href="https://www.linkedin.com/in/aiswarya-nair-5804b8223/" target="_blank" role="button"><i
-              class="fab fa-linkedin-in"></i></a>
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #0082ca;"
+            href="https://www.linkedin.com/in/aiswarya-nair-5804b8223/"
+            target="_blank"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
           <!-- Github -->
-          <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;"
-            href="https://github.com/AiswaryaNair4" target="_blank" role="button"><i class="fab fa-github"></i></a>
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #333333;"
+            href="https://github.com/AiswaryaNair4"
+            target="_blank"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
         </section>
         <!-- Section: Social media -->
       </div>
       <!-- Grid container -->
-
+    
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        © 2023 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">Aiswarya Nair</a>
       </div>
       <!-- Copyright -->
     </footer>
-
-  </div>
-  <!-- End of .container -->
+      
+    <!-- </div> -->
+    <!-- End of .container -->
 
 
 
